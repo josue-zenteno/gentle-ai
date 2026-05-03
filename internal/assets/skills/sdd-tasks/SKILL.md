@@ -69,9 +69,11 @@ openspec/changes/{change-name}/
 | Chained PRs recommended | Yes / No |
 | Suggested split | <single PR or PR 1 → PR 2 → PR 3> |
 | Delivery strategy | <ask-on-risk / auto-chain / single-pr / exception-ok> |
+| Chain strategy | <stacked-to-main / feature-branch-chain / size-exception / pending> |
 
 Decision needed before apply: <Yes|No>
 Chained PRs recommended: <Yes|No>
+Chain strategy: <stacked-to-main|feature-branch-chain|size-exception|pending>
 400-line budget risk: <Low|Medium|High>
 
 ### Suggested Work Units
